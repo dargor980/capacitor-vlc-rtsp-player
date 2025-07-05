@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dargor980/capacitor-vlc-rtsp-player.git.git"
+    "url": "git+https://github.com/dargor980/capacitor-vlc-rtsp-player.git"
   },
   "bugs": {
     "url": "https://github.com/dargor980/capacitor-vlc-rtsp-player.git/issues"
