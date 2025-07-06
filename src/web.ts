@@ -7,4 +7,19 @@ export class VlcRtspPlayerWeb extends WebPlugin implements VlcRtspPlayerPlugin {
     console.warn('VlcRtspPlayer is not available on web.');
     return;
   }
+
+  async pause(): Promise<void> {
+    console.warn('VlcRtspPlayer is not available on web.');
+    return;
+  }
+
+  async updateStream(_options: { url: string }): Promise<void> {
+    console.warn('VlcRtspPlayer is not available on web.');
+    return;
+  }
+
+  async checkConnection(_options: { url: string }): Promise<void> {
+    console.warn('VlcRtspPlayer is not available on web.');
+    return;
+  }
 }

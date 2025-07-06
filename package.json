@@ -1,6 +1,6 @@
 {
   "name": "vlc-rtsp-player",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Plugin para reproducir RTSP Usando VLC",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

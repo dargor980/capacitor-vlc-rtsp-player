@@ -14,6 +14,9 @@ npx cap sync
 <docgen-index>
 
 * [`play(...)`](#play)
+* [`pause()`](#pause)
+* [`updateStream(...)`](#updatestream)
+* [`checkConnection(...)`](#checkconnection)
 
 </docgen-index>
 
@@ -29,6 +32,41 @@ play(options: { url: string; }) => Promise<void>
 | Param         | Type                          |
 | ------------- | ----------------------------- |
 | **`options`** | <code>{ url: string; }</code> |
+
+--------------------
+
+
+### pause()
+
+```typescript
+pause() => Promise<void>
+```
+
+--------------------
+
+
+### updateStream(...)
+
+```typescript
+updateStream(option: { url: string; }) => Promise<void>
+```
+
+| Param        | Type                          |
+| ------------ | ----------------------------- |
+| **`option`** | <code>{ url: string; }</code> |
+
+--------------------
+
+
+### checkConnection(...)
+
+```typescript
+checkConnection(option: { url: string; }) => Promise<void>
+```
+
+| Param        | Type                          |
+| ------------ | ----------------------------- |
+| **`option`** | <code>{ url: string; }</code> |
 
 --------------------
 
