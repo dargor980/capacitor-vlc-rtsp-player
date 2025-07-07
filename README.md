@@ -17,6 +17,8 @@ npx cap sync
 * [`pause()`](#pause)
 * [`updateStream(...)`](#updatestream)
 * [`checkConnection(...)`](#checkconnection)
+* [`checkOverlayPermission()`](#checkoverlaypermission)
+* [`requestOverlayPermission()`](#requestoverlaypermission)
 
 </docgen-index>
 
@@ -67,6 +69,24 @@ checkConnection(option: { url: string; }) => Promise<void>
 | Param        | Type                          |
 | ------------ | ----------------------------- |
 | **`option`** | <code>{ url: string; }</code> |
+
+--------------------
+
+
+### checkOverlayPermission()
+
+```typescript
+checkOverlayPermission() => Promise<void>
+```
+
+--------------------
+
+
+### requestOverlayPermission()
+
+```typescript
+requestOverlayPermission() => Promise<void>
+```
 
 --------------------
 

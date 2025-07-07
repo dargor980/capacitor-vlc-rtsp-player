@@ -3,4 +3,6 @@ export interface VlcRtspPlayerPlugin {
   pause(): Promise<void>;
   updateStream(option: { url: string }): Promise<void>;
   checkConnection(option: { url: string }): Promise<void>;
+  checkOverlayPermission(): Promise<void>;
+  requestOverlayPermission(): Promise<void>;
 }
